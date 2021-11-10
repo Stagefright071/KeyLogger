@@ -36,7 +36,7 @@ Then run the generated executable in the target's computer.
 * Install python3 from your package manager.
 
 ```bash
-debian\ubuntu: $ sudo apt install python3 python3-pip git
+debian \ ubuntu: $ sudo apt install python3 python3-pip git
 arch: $ sudo pacman -S python python-pip git
 ```
 * Clone the repository
