@@ -11,7 +11,7 @@ This keylogger logs keyboard input and mails it to an email of the attackers cho
 
 > Install requirements:
 
-* Install python3 from https://python.org.
+* Install python3 from https://python.org and git from https://git-scm.com.
 * Clone the repository
 ```bash
 git clone https://Stagefright071/KeyLogger
